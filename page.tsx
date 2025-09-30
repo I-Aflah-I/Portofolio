@@ -24,7 +24,6 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-800 via-gray-900 to-gray-800 text-white">
-      {/* Navbar */}
       <nav className="flex justify-between items-center px-12 py-6 text-lg font-medium">
         <h1 className="text-2xl font-bold">Portofolio</h1>
         <div className="flex gap-8">
@@ -34,8 +33,6 @@ export default function Portfolio() {
           <a href="#contact" className="hover:text-cyan-400 transition">Contact</a>
         </div>
       </nav>
-
-      {/* Hero Section */}
       <section id="home" className="flex flex-col md:flex-row items-center justify-center px-8 md:px-20 py-20 gap-12">
         <div className="max-w-lg text-center md:text-left py-11 mt-3">
           <h2 className="text-2xl text-gray-300">Hello, It's Me</h2>
@@ -61,8 +58,6 @@ export default function Portfolio() {
           <div className="absolute inset-0 rounded-full animate-pulse border-4 border-cyan-500 blur-md opacity-40"></div>
         </div>
       </section>
-
-      {/* About */}
       <section id="about" className="flex flex-1 items-center justify-end px-16 min-h-screen">
         <div className="flex flex-col md:flex-row-reverse items-center gap-16">
           <div className="relative w-80 h-80 rounded-full flex items-center justify-center border-4 border-cyan-500 shadow-[0_0_50px_#22d3ee] overflow-hidden">
@@ -76,8 +71,6 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-
-      {/* Olahraga */}
       <section id="services" className="flex flex-col items-center justify-center px-16 py-24 bg-grey-900">
         <h1 className="text-5xl font-bold mb-16">Olahraga</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-7xl w-full">
@@ -98,13 +91,9 @@ export default function Portfolio() {
           ))}
         </div>
       </section>
-
-      {/* Skills */}
       <section id="skills" className="flex flex-col items-center justify-center px-16 py-24 bg-grey-900">
         <h1 className="text-5xl font-bold mb-20">My <span className="text-cyan-400">Skill</span> In <span className="text-cyan-400">Mobile Legends</span> </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 max-w-7xl w-full">
-
-          {/* Role Skills (Progress Bars) */}
           <div className="flex flex-col">
             <h2 className="text-3xl font-semibold mb-8 text-cyan-400 text-center">Role Skills</h2>
             {[
@@ -127,8 +116,6 @@ export default function Portfolio() {
               </div>
             ))}
           </div>
-
-          {/* Professional Skills (Circular) */}
           <div className="flex flex-wrap justify-center gap-10">
             {[
               { name: "Map Control", value: 85 },
